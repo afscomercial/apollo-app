@@ -2,14 +2,24 @@
   "name": "apollo_app",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "nodemon --watch server server/index.js",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@apollo/react-hooks": "^4.0.0",
+    "apollo-boost": "^0.4.9",
+    "apollo-server-express": "^2.10.1",
+    "axios": "^0.24.0",
+    "bootstrap": "^4.4.1",
+    "express": "^4.17.1",
+    "express-graphql": "^0.9.0",
+    "graphql": "^14.7.0",
     "next": "12.0.4",
+    "node-sass": "^6.0.1",
     "react": "17.0.2",
+    "react-bootstrap": "^1.0.0-beta.16",
     "react-dom": "17.0.2"
   },
   "devDependencies": {
